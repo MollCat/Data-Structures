@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body onload="sendToLogout()">
+       <div id="login-bg">
+        <form onsubmit="onLoginClick()" id="credentials">
+            <input class="login-input" 
+                name="username"
+                id="username" 
+                placeholder="username" 
+                type="text">
+            <input class="login-input" 
+                name="password"
+                id="password" 
+                placeholder="password" 
+                type="password">
+            <input id="login-button" 
+                class="submit-login"
+                type="submit" 
+                value="LOGIN"> 
+        </form>
+       </div>
+      <script src="./index.js"></script>
+    </body>
+</html>

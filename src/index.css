@@ -1,0 +1,88 @@
+:root {
+    --bg-color: #184E77;
+    --fg-color: #1A759F;
+    --dark: #34A0A4;
+    --secondary: #52B69A;
+    --primary: #76C893;
+    --danger: #D98D8D;
+    --drop-shadow: 0px 4px 4px rgba(0, 0, 0, .25)
+}
+
+body {
+    background-color:var(--bg-color);
+}
+
+#login-bg {
+    background-color:var(--fg-color);
+    width: 412px; 
+    height: 515px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: var(--drop-shadow);
+}
+
+#username {
+    margin-bottom: 30px;
+}
+
+#password {
+    margin-bottom: 132px;
+}
+
+#credentials {
+    margin-top: 113px;
+    margin-bottom: 132px;
+    display: inline-block;
+    width: 100%;
+}
+
+.submit-login {
+    box-shadow: var(--drop-shadow);
+    border-radius: 30px;
+    width: 252px;
+    height: 76px;
+    background-color:var(--secondary);
+    border: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.6em;
+} 
+
+#login-button:hover {
+    box-shadow:none;
+}
+
+#login-button:active {
+    box-shadow: none;
+    background-color: var(--primary);
+}
+
+.login-input {
+    background-color: var(--dark);
+    width: 252px;
+    height: 57px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.login-input::placeholder {
+    color: white;
+}
+
+  .login-input:focus {
+    background-color: var(--secondary);
+    box-shadow: var(--drop-shadow);
+}  
+
